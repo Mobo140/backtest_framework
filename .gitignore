@@ -1,0 +1,21 @@
+/build/
+/cmake-build-*/
+/compile_commands.json
+/.DS_Store
+/.vscode
+
+# python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# data/results
+results/
+logs/
+*.parquet
+*.csv
+*.pkl
+
+# mac/linux
+.DS_Store
